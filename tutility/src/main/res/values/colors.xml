@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLightRed">#F6CECE</color>
+    <color name="colorLightGreen">#D8F6CE</color>
+
+    <color name="red">#ff0000</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrey">#707070</color>
+    <color name="colorGreyLight">#8A8A8A</color>
+    <color name="skyblucolor">#d8ecf9</color>
+
+    <color name="login_first_half_blue">#546FF2</color>
+    <color name="login_second_half_blue">#F0F0F0</color>
+
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+
+    <color name="tab_text_color">#566573</color>
+    <color name="white_smoke">#f0f0f0</color>
+
+    <color name="light_bg">#ebebeb</color>
+
+    <color name="view_line">#d9d9d9</color>
+    <color name="darkGrey">@android:color/darker_gray</color>
+
+    <!--     push notification color      -->
+
+    <color name="colorPushNotif">#FF4081</color>
+    <color name="darkblue">#4876ff</color>
+
+    <color name="first_list_back">#f5f5f7</color>
+
+</resources>

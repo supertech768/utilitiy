@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Utility</string>
+
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="err_network_title">Network error</string>
+    <string name="err_network_message">We\'re unable to connect to server, please try again after sometime</string>
+
+</resources>

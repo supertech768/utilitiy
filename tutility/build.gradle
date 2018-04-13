@@ -1,0 +1,58 @@
+apply plugin: 'com.android.library'
+
+android {
+
+//    ext {
+//        bintrayRepo = 'tutility'
+//        bintrayName = 'tutility'
+//
+//        publishedGroupId = 'com.tutility'
+//        libraryName = 'tutility'
+//        artifact = 'tutility'
+//
+//        libraryDescription = 'Utiltity app to combine some poup utitliy functions.'
+//
+//        siteUrl = 'https://github.com/HLBpush/tutilityview'
+//        gitUrl = 'https://github.com/HLBpush/tutilityview.git'
+//
+//        libraryVersion = '1.0.0'
+//
+//        developerId = 'supertech'
+//        developerName = 'super tech'
+//        developerEmail = 'supertech768@gmail.com'
+//
+//        licenseName = 'The Apache Software License, Version 2.0'
+//        licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+//        allLicenses = ["Apache-2.0"]
+//    }
+    compileSdkVersion 27
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    implementation 'com.kaopiz:kprogresshud:1.1.0'
+}
+//apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+//apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
